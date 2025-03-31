@@ -13,9 +13,7 @@ from reportlab.lib.units import inch
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-UPLOAD_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'uploads')
 SCRAPED_SITE_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'scraped_site')
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(SCRAPED_SITE_FOLDER, exist_ok=True)
 
 def parse_test_logs(output):
@@ -202,7 +200,7 @@ def upload_file():
 
         timestamp = int(time.time())
         safe_filename = f"test_{timestamp}_{os.path.basename(file.filename)}"
-        file_path = os.path.join(UPLOAD_FOLDER, safe_filename)
+        file_path = os.path.join(SCRAPED_SITE_FOLDER, safe_filename)
         
         file.save(file_path)
         

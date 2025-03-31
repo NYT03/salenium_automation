@@ -8,3 +8,4 @@ playwright
 selenium
 selenium-wire
 webdriver-manager
+beautifulsoup4
