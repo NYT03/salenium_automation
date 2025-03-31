@@ -5,6 +5,9 @@ services:
     buildCommand: |
       python -m pip install -r requirements.txt
       npm install
+      npm install mocha --save-dev
+      npm install chromedriver --save-dev
+      npm install -g chromedriver
       python setup.py
     startCommand: python sel_runner.py
     envVars:

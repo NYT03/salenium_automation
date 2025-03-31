@@ -132,13 +132,17 @@ def setup_node_environment():
                 print("Error initializing npm:", npm_init.stderr)
                 return False
 
-        # Install required dependencies
-        install_cmd = ['npm', 'install', 'selenium-webdriver', 'mocha', 'chai']
+        # Install required dependencies including ChromeDriver
+        install_cmd = ['npm', 'install', 'selenium-webdriver', 'mocha', 'chai', 'chromedriver']
         result = subprocess.run(install_cmd, capture_output=True, text=True)
         
         if result.returncode != 0:
             print("Error installing dependencies:", result.stderr)
             return False
+        
+        # Add ChromeDriver to PATH
+        chromedriver_path = os.path.join(os.getcwd(), 'node_modules', 'chromedriver', 'bin')
+        os.environ['PATH'] = f"{chromedriver_path};{os.environ['PATH']}"
         
         return True
     except Exception as e:
@@ -209,15 +213,33 @@ def upload_file():
             
         print(f"Successfully saved file to: {file_path}")
         
-        print(f"Scraping website: {target_url}")
-        scrape_website(target_url, SCRAPED_SITE_FOLDER)
+        # Check if we should use live website or scrape it
+        use_live_site = request.form.get('use_live_site', 'true').lower() == 'true'
+        
+        if not use_live_site:
+            print(f"Scraping website: {target_url}")
+            scrape_website(target_url, SCRAPED_SITE_FOLDER)
+        else:
+            print(f"Using live website: {target_url}")
         
         print(f"Running test: {file_path}")
+        
+        # Set up environment variables for the test
+        env_vars = os.environ.copy()
+        env_vars.update({
+            "SITE_PATH": SCRAPED_SITE_FOLDER,
+            "TARGET_URL": target_url,
+            "USE_LIVE_SITE": "true" if use_live_site else "false",
+            "CHROMEDRIVER_PATH": os.path.join(os.getcwd(), 'node_modules', 'chromedriver', 'bin')
+        })
+        
+        # Run the test with proper error handling
         result = subprocess.run(
-            ['node', file_path], 
+            ['npx', 'mocha', file_path], 
             capture_output=True, 
             text=True,
-            env={"SITE_PATH": SCRAPED_SITE_FOLDER}
+            env=env_vars,
+            shell=True  # Add shell=True for Windows compatibility
         )
         
         test_logs = parse_test_logs(result.stdout)
@@ -229,9 +251,9 @@ def upload_file():
                 'message': 'Success',
                 'output': result.stdout,
                 'test_logs': test_logs,
-                'scraped_site': SCRAPED_SITE_FOLDER,
                 'file_path': file_path,
-                'report_url': f'/download_report/{os.path.basename(report_path)}'
+                'report_url': f'/download_report/{os.path.basename(report_path)}',
+                'used_live_site': use_live_site
             }), 200
         else:
             return jsonify({
