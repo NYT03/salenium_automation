@@ -1,0 +1,373 @@
+@media all and (min-width: 1024px) and (max-width: 1310px) {
+    .about{
+        margin-top: 10em;
+    }
+
+    .about .head1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        position: absolute;
+        left: 0vw;
+        margin-top: 10vh;
+    }
+    
+    .about .head1 h1{
+        font-size: 2.9em;
+    }
+    
+    .about .para{
+        top: 20vh;
+        left: 0vw;
+    }
+    
+    .about .p1,.p2{
+        margin-top: 1.5em;
+        width: 50vw;
+        font-size: 1.6vw;
+    }
+    
+    .about .vs{
+        font-size: 1.9em;
+        margin-top: 3vw;
+    }
+    
+    
+    .about .ms{
+        font-size: 1.9em;
+        margin-top: -1vw;
+    }
+    
+    
+    .about img{
+        width: 25vw; 
+        left: 5em;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+        .about{
+        margin-top: 5em;
+    }
+    
+    
+    .about .head1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        position: absolute;
+        left: 0vw;
+        margin-top: 13vh;
+    }
+    
+    .about .head1 h1{
+        font-size: 2.9em;
+    }
+    
+    .about .para{
+        top: 20vh;
+        left: 0vw;
+    }
+    
+    .about .p1,.p2{
+        margin-top: 1.5em;
+        width: 50vw;
+        font-size: 1.7vw;
+    }
+    
+    .about .vs{
+        font-size: 1.9em;
+        margin-top: 3vw;
+    }
+    
+    
+    .about .ms{
+        font-size: 1.9em;
+        margin-top: -1vw;
+    }
+    
+    
+    .about img{
+        width: 25vw; 
+        left: 5em;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .about{
+        margin-top: 7em;
+    }
+    
+    
+    .about .head1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        position: absolute;
+        left: 0vw;
+        margin-top: 10vh;
+    }
+    
+    .about .head1 h1{
+        font-size: 2.5em;
+    }
+    
+    .about .para{
+        top: 20vh;
+        left: 0vw;
+    }
+    
+    .about .p1,.p2{
+        margin-top: 1.5em;
+        width: 50vw;
+        font-size: 2vw;
+    }
+    
+    .about .vs{
+        font-size: 1.5em;
+        margin-top: 3vw;
+    }
+    
+    
+    .about .ms{
+        font-size: 1.5em;
+        margin-top: -1vw;
+    }
+    
+    
+    .about img{
+        width: 25vw;
+        left: 3em;
+        top: 3em;
+    }
+ }
+
+@media all and (min-width: 384px) and (max-width: 480px) { 
+    .about{
+        margin-top: -6em;
+    }
+
+    .about .head1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        position: absolute;
+        left: 0vw;
+        margin-top: 17vh;
+    }
+    
+    .about .head1 h1{
+        font-size: 2.5em;
+    }
+    
+    .about .para{
+        top: 47vh;
+        left: 4em;
+    }
+    
+    .about .p1,.p2{
+        margin-top: 1.5em;
+        width:85vw;
+        font-size: 0.6em;
+        text-align: justify;
+    }
+    
+    .about .vs{
+        font-size: 4.5vw;
+        margin-top: 3vw;
+        left: 35vw;
+    }
+    
+    
+    .about .ms{
+        font-size: 4.5vw;
+        margin-top: -4.5vw;
+        left: 35vw;
+    }
+    
+    
+    .about img{
+        width: 9em;
+        left: -45vw;
+        top: 2em;
+        transform: translateX(-50%);
+        transform: translateY(-5%);
+    }
+}
+
+@media all and (min-width: 302px) and (max-width: 384px) { 
+    .about{
+        margin-top: -7em;
+    }
+    
+    
+    .about .head1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        position: absolute;
+        left: 0vw;
+        margin-top: 22vh;
+    }
+    
+    .about .head1 h1{
+        font-size: 2em;
+    }
+    
+    .about .para{
+        top: 44.5vh;
+        left: 2em;
+    }
+    
+    .about .p1,.p2{
+        margin-top: 1.5em;
+        width:75vw;
+        font-size: 0.58em;
+        text-align: justify;
+    }
+    
+    .about .vs{
+        font-size: 1.2em;
+        margin-top: 3vw;
+        left: 30vw;
+    }
+    
+    
+    .about .ms{
+        font-size: 1.2em;
+        margin-top: -4.5vw;
+        left: 30vw;
+    }
+    
+    
+    .about img{
+        width: 27vw;
+        left: -43vw;
+        top: 3vh;
+        transform: translateX(-50%);
+        transform: translateY(-5%);
+    }
+}
+
+@media all and (min-width:284px) and (max-width:302px) {
+    .about{
+        margin-top: -7em;
+    }
+
+    .about .head1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        position: absolute;
+        left: 0vw;
+        margin-top: 22vh;
+    }
+    
+    .about .head1 h1{
+        font-size: 2em;
+    }
+
+    .about .para{
+        top: 44vh;
+        left: 1em;
+    }
+    
+    .about .p1,.p2{
+        margin-top: 1.5em;
+        width:75vw;
+        font-size: 0.55em;
+        text-align: justify;
+    }
+    
+    .about .vs{
+        font-size: 1.2em;
+        margin-top: 3vw;
+        left: 30vw;
+    }
+    
+    
+    .about .ms{
+        font-size: 1.2em;
+        margin-top: -4.5vw;
+        left: 30vw;
+    }
+    
+    
+    .about img{
+        width: 30vw;
+        left: -45vw;
+        top: 3vh;
+        transform: translateX(-50%);
+        transform: translateY(-5%);
+    }   
+}
+
+@media all and (width<=284px) {
+    
+    .about{
+        margin-top: -15vh;
+    }
+
+    .about .head1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        position: absolute;
+        left: 0vw;
+        margin-top: 22vh;
+    }
+    
+    .about .head1 h1{
+        font-size: 2em;
+    }
+
+    .about .para{
+        top: 44vh;
+        left: 0.5em;
+    }
+    
+    .about .p1,.p2{
+        margin-top: 1.5em;
+        width:75vw;
+        font-size: 0.5em;
+        text-align: justify;
+    }
+    
+    .about .vs{
+        font-size: 1.2em;
+        margin-top: 3vw;
+        left: 30vw;
+    }
+    
+    
+    .about .ms{
+        font-size: 1.2em;
+        margin-top: -4.5vw;
+        left: 30vw;
+    }
+    
+    
+    .about img{
+        width: 30vw;
+        left: -48vw;
+        top: 0vh;
+        transform: translateX(-50%);
+        transform: translateY(-5%);
+    }   
+}
+
+
+
+
+
+/* @media screen and (orientation:portrait) { }
+
+@media screen and (orientation:landscape) { } */

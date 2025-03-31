@@ -1,0 +1,587 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+   
+footer {
+    margin-top: 0em;
+}
+
+
+footer .row{
+    position: relative;
+    top: -3em;
+}
+
+.col{
+    margin-right: -4em;
+}
+
+
+.lg{
+    margin-top: 3em;
+    margin-right: 2em;
+    position: relative;
+    left: -3em;
+}
+
+
+.col .logo h1{
+    padding-bottom: 0.7em;
+    font-size: 4.5em;
+}
+
+.col .logodis{
+    font-size: 1.3em;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.head6{
+    margin-top: -1em;
+    margin-bottom: 2em;
+    font-size: 1.4em;
+}
+
+
+.head7{
+    margin-top: -1em;
+    margin-bottom: 2em;
+    font-size: 1.4em;
+}
+
+
+.otherlinks{
+    margin-left: -3em;
+}
+
+.links{
+    margin-top: 4em;
+    position: relative;
+    left: -6em;
+}
+
+.links ul {
+    padding: 0;
+    position: relative;
+    top: 1em;
+}
+
+.otherlinks ul {
+    padding: 0;
+    position: relative;
+    top: 3em;
+}
+
+.links ul li {
+    margin-bottom: 18px; 
+}
+
+.links ul li a {
+    font-size: 1.3em;
+    position: relative;
+}
+
+.connect{
+    margin-top: 6em;
+    margin-left: -9em;
+}
+
+.connect h3{
+    font-size: 2vw;
+}
+
+.connect .socialmedia{
+    margin-top: 3em;
+}
+
+.connect .fa-brands,.connect .fa-regular{
+    font-size: 2.5vw;
+    padding: 0.4em;
+}
+
+hr{
+    width: 90%;
+    bottom: 0;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+}
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    footer {
+        margin-top: 15em;
+    }
+    
+    
+    footer .row{
+        position: relative;
+        top: -3em;
+    }
+    
+    .col{
+        margin-right: -4em;
+    }
+    
+    
+    .lg{
+        margin-top: 4em;
+        margin-right: 2em;
+        position: relative;
+        left: -2em;
+    }
+    
+    
+    .col .logo h1{
+        padding-bottom: 0.7em;
+        font-size: 7vw;
+    }
+    
+    .col .logodis{
+        font-size: 2vw;
+        line-height: 35px;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+    
+    .head6{
+        margin-top: -1em;
+        margin-bottom: 2em;
+        font-size: 2.5vw;
+        text-align: center;
+        line-height: 1.3em;
+    }
+    
+    
+    .head7{
+        margin-top: -1em;
+        margin-bottom: 2vw;
+        font-size: 2.5vw;
+    }
+    
+    
+    .otherlinks{
+        margin-left: 0em;
+    }
+    
+    .links{
+        margin-top: 4em;
+        position: relative;
+        left: -8em;
+    }
+    
+    .links ul {
+        padding: 0;
+        position: relative;
+        top: 1em;
+    }
+    
+    .otherlinks ul {
+        padding: 0;
+        position: relative;
+        top: 5em;
+    }
+    
+    .links ul li {
+        margin-bottom: 18px; 
+    }
+    
+    .links ul li a {
+        font-size: 1em;
+        position: relative;
+    }
+    
+    .connect{
+        margin-top: 10em;
+        margin-right: -2em;
+    }
+    
+    .connect h3{
+        font-size: 2.7vw;
+    }
+    
+    .connect .socialmedia{
+        margin-top: 3em;
+    }
+    
+    .connect .fa-brands,.connect .fa-regular{
+        font-size: 2.5vw;
+        padding: 0.2em;
+    }
+    
+    hr{
+        width: 90%;
+        bottom: 0;
+        margin: 20px auto;
+    }
+    
+    .copyright{
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    footer {
+        margin-top: 15em;
+    }
+    
+    
+    footer .row{
+        position: relative;
+        top: -6em;
+    }
+    
+    .col{
+        margin-right: -4em;
+    }
+    
+    
+    .lg{
+        margin-top: 4em;
+        margin-right: 2em;
+        position: relative;
+        left: -1em;
+    }
+    
+    
+    .col .logo h1{
+        padding-bottom: 0.7em;
+        font-size: 7vw;
+    }
+    
+    .col .logodis{
+        font-size: 2vw;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+    
+    .head6{
+        margin-top: -1em;
+        margin-bottom: 2em;
+        font-size: 2.5vw;
+        text-align: center;
+        line-height: 1.7em;
+    }
+    
+    
+    .head7{
+        margin-top: -1em;
+        margin-bottom: 2vw;
+        font-size: 2.5vw;
+        text-align: center;
+        line-height: 1.7em;
+    }
+    
+    
+    .otherlinks{
+        margin-left: 3em;
+        margin-right: -2em;
+    }
+    
+    .links{
+        margin-top: 4em;
+        position: relative;
+        left: -3em;
+    }
+    
+    .links ul {
+        padding: 0;
+        position: relative;
+        top: 1em;
+    }
+    
+    .otherlinks ul {
+        padding: 0;
+        position: relative;
+        top: 5em;
+    }
+    
+    .links ul li {
+        margin-bottom: 18px; 
+    }
+    
+    .links ul li a {
+        font-size: 1em;
+        position: relative;
+    }
+    
+    .connect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100vw;
+        top: 15.5em;
+        left: -37vw;
+        margin-top: 6em;
+    }
+    
+    .connect h3{
+        font-size: 4vw;
+        width: 28vw;
+    }
+    
+    .connect .socialmedia{
+        margin-top: 1em;
+    }
+    
+    .connect .fa-brands,.connect .fa-regular{
+        font-size: 3.9vw;
+        padding: 0.2em;
+    }
+    
+    hr{
+        width: 90%;
+        bottom: 0;
+        margin: 20px auto;
+    }
+    
+    .copyright{
+        text-align: center;
+    }
+ }
+
+@media all and (min-width: 284px) and (max-width: 480px) { 
+    
+    
+    footer .row{
+        position: relative;
+        top: -6em;
+    }
+    
+    .col{
+        margin-right: -4em;
+        top: -1em;
+    }
+    
+    
+    .lg{
+        margin-top: 4em;
+        margin-right: 2em;
+        position: relative;
+        left: 1vw;
+    }
+    
+    
+    .col .logo h1{
+        padding-bottom: 0.7em;
+        font-size: 10vw;
+    }
+    
+    .col .logodis{
+        font-size: 2.9vw;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+
+    
+    
+    .head7{
+        margin-top: -1em;
+        margin-bottom: 2vw;
+        font-size: 4vw;
+        text-align: center;
+        line-height: 1.7em;
+        width: 30vw;
+    }
+
+    .implinks{
+        display: none;
+    }
+    
+    
+    .otherlinks{
+        position: relative;
+    }
+    
+    .links{
+        margin-top: 4em;
+        position: relative;
+        left: -3em;
+    }
+    
+    .links ul {
+        padding: 0;
+        position: relative;
+        top: 1em;
+    }
+    
+    .otherlinks ul {
+        padding: 0;
+        position: relative;
+        top: 2em;
+    }
+    
+    .links ul li {
+        margin-bottom: 18px; 
+    }
+    
+    .links ul li a {
+        font-size: 4vw;
+        position: relative;
+    }
+    
+    .connect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100vw;
+        top: 9.5em;
+        left: -39vw;
+        margin-top: 6em;
+    }
+    
+    .connect h3{
+        font-size: 5vw;
+        width: 38vw;
+        text-align: center;
+    }
+    
+    .connect .socialmedia{
+        margin-top: 1em;
+    }
+    
+    .connect .fa-brands,.connect .fa-regular{
+        font-size: 5vw;
+        padding: 0.2em;
+    }
+    
+    hr{
+        width: 90%;
+        bottom: 0;
+        margin: 20px auto;
+    }
+    
+    .copyright{
+        text-align: center;
+        font-size: 3vw;
+    }
+}
+
+@media all and (width<=284px) {
+    footer {
+        margin-top: 15em;
+    }
+    
+    
+    footer .row{
+        position: relative;
+        top: -6em;
+    }
+    
+    .col{
+        margin-right: -4em;
+        top: -1em;
+    }
+    
+    
+    .lg{
+        margin-top: 4em;
+        margin-right: 2em;
+        position: relative;
+        left: 1vw;
+    }
+    
+    
+    .col .logo h1{
+        padding-bottom: 0.7em;
+        font-size: 10vw;
+    }
+    
+    .col .logodis{
+        font-size: 2.9vw;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+
+    
+    
+    .head7{
+        margin-top: -1em;
+        margin-bottom: 2vw;
+        font-size: 4vw;
+        text-align: center;
+        line-height: 1.7em;
+        width: 30vw;
+    }
+
+    .implinks{
+        display: none;
+    }
+    
+    
+    .otherlinks{
+        position: relative;
+    }
+    
+    .links{
+        margin-top: 4em;
+        position: relative;
+        left: -3em;
+    }
+    
+    .links ul {
+        padding: 0;
+        position: relative;
+        top: 1em;
+    }
+    
+    .otherlinks ul {
+        padding: 0;
+        position: relative;
+        top: 2em;
+    }
+    
+    .links ul li {
+        margin-bottom: 18px; 
+    }
+    
+    .links ul li a {
+        font-size: 4vw;
+        position: relative;
+    }
+    
+    .connect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100vw;
+        top: 7.5em;
+        left: -45vw;
+        margin-top: 6em;
+    }
+    
+    .connect h3{
+        font-size: 5vw;
+        width: 38vw;
+        text-align: center;
+    }
+    
+    .connect .socialmedia{
+        margin-top: 1em;
+    }
+    
+    .connect .fa-brands,.connect .fa-regular{
+        font-size: 5vw;
+        padding: 0.2em;
+    }
+    
+    hr{
+        width: 90%;
+        bottom: 0;
+        margin: 20px auto;
+    }
+    
+    .copyright{
+        text-align: center;
+        font-size: 5vw;
+    }
+}

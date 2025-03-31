@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: test-runner
+    env: python
+    buildCommand: |
+      python -m pip install -r requirements.txt
+      npm install
+      python setup.py
+    startCommand: python sel_runner.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
+      - key: NODE_VERSION
+        value: 23.10.0

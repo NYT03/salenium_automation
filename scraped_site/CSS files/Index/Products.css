@@ -1,0 +1,97 @@
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    margin-top: 12em;
+}
+
+.products .inform1{
+    margin-left: -20vw;
+}
+
+
+.products .inform1 h1{
+    width: 15vw;
+    margin-top: -2em;
+    font-size: 4vw;
+    margin-left: 10px;
+    position: absolute;
+    text-decoration: underline;
+    text-decoration-color: #EA251F;
+}
+
+.products .head2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 0vw;
+    margin-top: 5vh;
+}
+
+.products .inform1 .para1{
+    position: relative;
+    top: 7em;
+    margin-left: 10em;
+}
+
+
+.inform1 h2{
+    width: 50vw;
+    font-size: 1.9em;
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 66, 193);
+    position: relative;
+    top: 0em;
+}
+
+.inform1 .pa1{
+    margin-top: 4vh;
+    text-align: justify;
+    line-height: 1.5em;
+    width: 44.5vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+.naya {
+    font-weight: 800;
+    transition: all 0.3s ease-in;
+}
+
+.naya:hover {
+    color: transparent;
+    background-image: radial-gradient(circle, rgb(20, 174, 0) 0%, rgb(18, 157, 0) 28%, rgb(255, 115, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+
+
+.products .demo video{
+    width: 15vw;
+    position: relative;
+    left: 7em;
+    top: 1em;
+    transition: all 0.2s ease-in-out;
+    border: 3px solid rgba(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 20vh;
+    margin-right:200px;
+}
+
+.products video:hover{
+    border: 2px solid rgb(255, 0, 132);
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px rgb(255, 0, 212);
+    cursor: pointer;
+}
+
+.products .demov video{
+    display: none;
+}
+

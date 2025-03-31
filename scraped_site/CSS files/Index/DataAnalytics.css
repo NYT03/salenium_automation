@@ -1,0 +1,69 @@
+
+.dt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    top: -10em;
+    margin-bottom: 25em;
+}
+
+.dt .head4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    left: 0vw;
+    margin-top: 5vh;
+}
+
+.dt .head4 h1{
+    position: relative;
+    top: 19vh;
+    font-size: 4em;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.dt .potholes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 33em;
+    margin: 1em 1em 1em 1em;
+}
+
+.dt video{
+    width: 50vw;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: rgba(0, 46, 252, 0.4) 5px 5px, rgba(170, 0, 255, 0.3) 10px 10px, rgba(253, 0, 160, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+    margin-left: 8em;
+}
+
+.dt video:hover{
+    box-shadow: rgba(0, 46, 252, 0.4) -5px -5px, rgba(170, 0, 255, 0.3) -10px -10px, rgba(253, 0, 160, 0.2) -15px -15px, rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;
+    cursor: pointer;
+}
+
+.dt .potholes .info5 h2{
+    font-size: 2em;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.dt .potholes .info5 p{
+    margin-top: 2vh;
+    text-align: justify;
+    line-height: 1.5em;
+    width: 28.5vw;
+    font-size: 1.3em;
+    font-weight: 600;
+}

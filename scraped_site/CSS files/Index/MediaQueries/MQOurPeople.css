@@ -1,0 +1,1108 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  .our-team{
+    margin-top: 16em;
+    margin-bottom: -6em;
+  }
+  
+  .heading{
+    margin-bottom:  7em;
+    flex-direction: column;
+  }
+  
+  .our-team .head5{
+      font-size: 3em;
+  }
+  
+  .main-box {
+      height: 100vh;
+    }
+    
+    
+    .cont2 {
+      width: 20vw;
+      height: 20vw;
+      margin-bottom: 1em;
+    }
+    
+    .people {
+      height: 100%;
+      width: 100%;      
+    }
+    
+    .people .front,
+    .people .back {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .main-box .people .back {
+      gap: 3px;
+    }
+    
+    .main-box .people1 .back h1 {
+      font-size: 1.2rem;
+      margin-top: 1em;
+    }
+    
+    .main-box .people1 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .main-box .people1 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people2 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0.5em;
+    }
+    
+    .people2 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people2 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people3 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people3 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people3 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .people4 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people4 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people4 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people5 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people5 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people5 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+    .people6 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people6 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people6 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people7 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people7 .back h3 {
+      font-size: 0.8rem;
+    }
+  
+    .people7 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      text-align: center;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people8 .back h1 {
+      font-size: 1rem;
+      margin-top: -0em;
+    }
+    
+    .people8 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people8 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .right{
+      display: grid;
+      grid-auto-flow:row-center auto;
+      grid-gap: 1vw;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+      margin-left: 2em; 
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+  .our-team{
+    margin-top: 16em;
+    margin-bottom: 80vw;
+  }
+  
+  .heading{
+    margin-bottom:  7em;
+    flex-direction: column;
+  }
+  
+  .our-team .head5{
+      font-size: 4em;
+  }
+  
+  .main-box {
+      height: 100vh;
+      
+    }
+    
+    
+    .cont2 {
+      width: 30vw;
+      height: 30vw;
+      margin-bottom: 1em;
+      justify-self: center;
+      align-self: center;
+    }
+    
+    .people {
+      height: 100%;
+      width: 100%;      
+    }
+    
+    .people .front,
+    .people .back {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .main-box .people .back {
+      gap: 3px;
+    }
+    
+    .main-box .people1 .back h1 {
+      font-size: 1.2rem;
+      margin-top: 1em;
+    }
+    
+    .main-box .people1 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .main-box .people1 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people2 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0.5em;
+    }
+    
+    .people2 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people2 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people3 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people3 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people3 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .people4 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people4 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people4 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people5 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people5 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people5 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+    .people6 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people6 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people6 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people7 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people7 .back h3 {
+      font-size: 0.8rem;
+    }
+  
+    .people7 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      text-align: center;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people8 .back h1 {
+      font-size: 1rem;
+      margin-top: -0em;
+    }
+    
+    .people8 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people8 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .right{
+      display: grid;
+      grid-auto-flow:row;
+      grid-gap: 4vw;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      margin-left: 2em;
+    }
+}
+
+@media all and (min-width: 580px) and (max-width: 768px) {
+  .our-team{
+    margin-top: 16em;
+    margin-bottom: 60vw;
+  }
+  
+  .heading{
+    margin-bottom:  7em;
+    flex-direction: column;
+  }
+  
+  .our-team .head5{
+      font-size: 4em;
+  }
+  
+  .main-box {
+      height: 100vh;
+      
+    }
+    
+    
+    .cont2 {
+      width: 30vw;
+      height: 30vw;
+      margin-bottom: 1em;
+      justify-self: center;
+      align-self: center;
+    }
+    
+    .people {
+      height: 100%;
+      width: 100%;      
+    }
+    
+    .people .front,
+    .people .back {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .main-box .people .back {
+      gap: 3px;
+    }
+    
+    .main-box .people1 .back h1 {
+      font-size: 1.2rem;
+      margin-top: 1em;
+    }
+    
+    .main-box .people1 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .main-box .people1 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people2 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0.5em;
+    }
+    
+    .people2 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people2 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people3 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people3 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people3 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .people4 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people4 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people4 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people5 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people5 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people5 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+    .people6 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people6 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people6 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people7 .back h1 {
+      font-size: 1.2rem;
+      margin-top: -0em;
+    }
+    
+    .people7 .back h3 {
+      font-size: 0.8rem;
+    }
+  
+    .people7 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      text-align: center;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people8 .back h1 {
+      font-size: 1rem;
+      margin-top: -0em;
+    }
+    
+    .people8 .back h3 {
+      font-size: 0.8rem;
+    }
+    
+    .people8 .back p {
+      padding-left: 0.5rem;
+      font-size: 0.7em;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .right{
+      display: grid;
+      grid-auto-flow:row;
+      grid-gap: 10vw;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      margin-left: 1em;
+    }
+ }
+
+ @media all and (min-width: 480px) and (max-width: 580px) {
+  .our-team{
+    margin-top: 16em;
+    margin-bottom: 60vw;
+  }
+  
+  .heading{
+    margin-bottom:  7em;
+    flex-direction: column;
+  }
+
+  .yellow-line{
+    display: none;
+  }
+  
+  .our-team .head5{
+      font-size: 4em;
+  }
+  
+  .main-box {
+      height: 100vh;
+      
+    }
+    
+    
+    .cont2 {
+      width: 30vw;
+      height: 30vw;
+      margin-bottom: 1em;
+      justify-self: center;
+      align-self: center;
+    }
+    
+    .people {
+      height: 100%;
+      width: 100%;      
+    }
+    
+    .people .front,
+    .people .back {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .main-box .people .back {
+      gap: 3px;
+    }
+    
+    .main-box .people1 .back h1 {
+      font-size: 3vw;
+      margin-top: 0em;
+    }
+    
+    .main-box .people1 .back h3 {
+      font-size: 2.2vw;
+    }
+    
+    .main-box .people1 .back p {
+      display: none;
+    }
+  
+    .people2 .back h1 {
+      font-size: 3vw;
+      margin-top: 0em;
+    }
+    
+    .people2 .back h3 {
+      font-size: 2.2vw;
+    }
+    
+    .people2 .back p {
+      display: none;
+    }
+  
+    .people3 .back h1 {
+      font-size: 3vw;
+      margin-top: -0em;
+    }
+    
+    .people3 .back h3 {
+      font-size: 2.2vw;
+    }
+    
+    .people3 .back p {
+      display: none;
+    }
+
+    .people4 .back h1 {
+      font-size: 3vw;
+      margin-top: -0em;
+    }
+    
+    .people4 .back h3 {
+      font-size: 2.2vw;
+    }
+    
+    .people4 .back p {
+      display: none;
+    }
+  
+    .people5 .back h1 {
+      font-size: 3vw;
+      margin-top: -0em;
+    }
+    
+    .people5 .back h3 {
+      font-size: 2.2vw;
+    }
+    
+    .people5 .back p {
+      display: none;
+    }
+    .people6 .back h1 {
+      font-size: 3vw;
+      margin-top: -0em;
+    }
+    
+    .people6 .back h3 {
+      font-size: 2.2vw;
+    }
+    
+    .people6 .back p {
+      display: none;
+    }
+  
+    .people7 .back h1 {
+      font-size: 3vw;
+      margin-top: -0em;
+    }
+    
+    .people7 .back h3 {
+      font-size: 2.2vw;
+    }
+  
+    .people7 .back p {
+      display: none;
+    }
+  
+    .people8 .back h1 {
+      font-size: 3.3vw;
+      margin-top: -0em;
+    }
+    
+    .people8 .back h3 {
+      font-size: 2.2vw;
+    }
+    
+    .people8 .back p {
+
+      display: none;
+    }
+
+    .right{
+      display: grid;
+      grid-auto-flow:row;
+      grid-gap: 10vw;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      margin-left: 1em;
+    }
+ }
+
+@media all and (min-width: 284px) and (max-width: 480px) { 
+  .our-team{
+    margin-top: 16em;
+    /* margin-bottom: 270vw; */
+  }
+  
+  .heading{
+    margin-bottom:  7em;
+    flex-direction: column;
+  }
+  
+  .our-team .head5{
+      font-size: 3em;
+  }
+  
+  .main-box {
+      height: 100vh;
+      margin-bottom: 350vw;
+    }
+    
+    
+    .cont2 {
+      width: 50vw;
+      height: 50vw;
+      margin-bottom: 1em;
+      justify-self: center;
+      align-self: center;
+    }
+    
+    .people {
+      height: 100%;
+      width: 100%;      
+    }
+    
+    .people .front,
+    .people .back {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .main-box .people .back {
+      gap: 3px;
+    }
+    
+    .main-box .people1 .back h1 {
+      font-size: 5vw;
+      margin-top: 1vw;
+    }
+    
+    .main-box .people1 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .main-box .people1 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.9vw;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people2 .back h1 {
+      font-size: 5vw;
+      margin-top: -0.5em;
+    }
+    
+    .people2 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people2 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.9vw;
+      margin-top: 1.2em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1.2rem;
+    }
+  
+    .people3 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people3 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people3 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.9vw;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .people4 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people4 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people4 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.9vw;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people5 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people5 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people5 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.9vw;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+    .people6 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people6 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people6 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.9vw;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people7 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people7 .back h3 {
+      font-size: 3vw;
+    }
+  
+    .people7 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.9vw;
+      text-align: center;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+  
+    .people8 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people8 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people8 .back p {
+      padding-left: 0.5rem;
+      font-size: 2.5vw;
+      margin-top: 1em;
+      margin-right: 0.5em;
+      width: -0.5rem;
+      line-height: 1rem;
+    }
+
+    .right{
+      display: grid;
+      grid-auto-flow:row;
+      grid-gap: 10vw;
+      grid-template-columns: 1fr  ;
+      grid-template-rows: repeat(8,0.5fr);
+      margin-left: 1em;
+    }
+}
+
+@media all and (width<=284px) {
+  .our-team{
+    margin-top: 16em;
+    /* margin-bottom: 270vw; */
+  }
+  
+  .heading{
+    margin-bottom:  7em;
+    flex-direction: column;
+  }
+  
+  .our-team .head5{
+      font-size: 2em;
+  }
+  
+  .main-box {
+      height: 100vh;
+      margin-bottom: 350vw;
+    }
+    
+    
+    .cont2 {
+      width: 50vw;
+      height: 50vw;
+      margin-bottom: 1em;
+      justify-self: center;
+      align-self: center;
+    }
+    
+    .people {
+      height: 100%;
+      width: 100%;      
+    }
+    
+    .people .front,
+    .people .back {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .main-box .people .back {
+      gap: 3px;
+    }
+    
+    .main-box .people1 .back h1 {
+      font-size: 5vw;
+      margin-top: 1vw;
+    }
+    
+    .main-box .people1 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .main-box .people1 .back p {
+      display: none;
+    }
+  
+    .people2 .back h1 {
+      font-size: 5vw;
+      margin-top: -0.5em;
+    }
+    
+    .people2 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people2 .back p {
+      display: none;
+    }
+  
+    .people3 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people3 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people3 .back p {
+      display: none;
+    }
+
+    .people4 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people4 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people4 .back p {
+      display: none;
+    }
+  
+    .people5 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people5 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people5 .back p {
+      display: none;
+    }
+    .people6 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people6 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people6 .back p {
+      display: none;
+    }
+  
+    .people7 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people7 .back h3 {
+      font-size: 3vw;
+    }
+  
+    .people7 .back p {
+      display: none;
+    }
+  
+    .people8 .back h1 {
+      font-size: 5vw;
+      margin-top: -0em;
+    }
+    
+    .people8 .back h3 {
+      font-size: 3vw;
+    }
+    
+    .people8 .back p {
+      display: none;
+    }
+
+    .right{
+      display: grid;
+      grid-auto-flow:row;
+      grid-gap: 10vw;
+      grid-template-columns: 1fr  ;
+      grid-template-rows: repeat(8,0.5fr);
+      margin-left: 1em;
+    }
+}

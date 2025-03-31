@@ -1,0 +1,331 @@
+.our-team{
+  margin-top: 16em;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:  7em;
+  flex-direction: column;
+}
+
+.our-team .head5{
+    font-size: 4em;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.main-box {
+    height: 100vh;
+  }
+  
+  
+  .cont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    perspective: 1000px;
+    margin-bottom: 1em;
+    
+  }
+  
+  .people {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+    color: white;
+    
+  }
+  
+  .cont1:hover > .people {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  .cont2:hover > .people {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  
+  .people .front,
+  .people .back {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    backface-visibility: hidden;
+    box-shadow: 0px 9px 30px rgba(5, 5, 255, 0.364);  }
+  
+  .main-box .people .back {
+    background-color: #000000be;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-box .people1 .back h1 {
+    font-size: 1.2rem;
+    margin-top: 1em;
+  }
+  
+  .main-box .people1 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .main-box .people1 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1.2em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1.2rem;
+  }
+
+  .main-box .people1 .back h1 {
+    color: rgb(255, 187, 0);
+  }
+
+  .people2 .back h1 {
+    font-size: 1.2rem;
+    margin-top: -0.5em;
+  }
+  
+  .people2 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .people2 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1.2em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1.2rem;
+  }
+
+  .main-box .people2 .back h1 {
+    color: rgb(255, 187, 0);
+  }
+
+
+
+  .people3 .back h1 {
+    font-size: 1.2rem;
+    margin-top: -0em;
+  }
+  
+  .people3 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .people3 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1rem;
+  }
+
+  .main-box .people3 .back h1 {
+    color: rgb(255, 187, 0);
+  }
+
+
+
+  .people4 .back h1 {
+    font-size: 1.2rem;
+    margin-top: -0em;
+  }
+  
+  .people4 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .people4 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1rem;
+  }
+
+  .main-box .people4 .back h1 {
+    color: rgb(255, 187, 0)
+  }
+
+  .people5 .back h1 {
+    font-size: 1.2rem;
+    margin-top: -0em;
+  }
+  
+  .people5 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .people5 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1rem;
+  }
+
+  .main-box .people5 .back h1 {
+    color: rgb(255, 187, 0);
+  }
+
+
+  .people6 .back h1 {
+    font-size: 1.2rem;
+    margin-top: -0em;
+  }
+  
+  .people6 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .people6 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1rem;
+  }
+
+  .main-box .people6 .back h1 {
+    color: rgb(255, 187, 0);
+  }
+
+
+
+  .people7 .back h1 {
+    font-size: 1.2rem;
+    margin-top: -0em;
+  }
+  
+  .people7 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .yellow-line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 187, 0);
+  }
+
+  .people7 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1rem;
+  }
+
+  .main-box .people7 .back h1 {
+    color: rgb(255, 187, 0);
+  }
+
+
+  .people8 .back h1 {
+    font-size: 1rem;
+    margin-top: -0em;
+  }
+  
+  .people8 .back h3 {
+    font-size: 0.8rem;
+  }
+  
+  .people8 .back p {
+    padding-left: 0.5rem;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: -0.5rem;
+    line-height: 1rem;
+  }
+
+  .main-box .people8 .back h1 {
+    color: rgb(255, 187, 0);
+  }
+
+  .our-team .people8 .front {
+    background-image: url(/OurPeoplePhotos/aparnamaam.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.our-team .people1 .front {
+    background-image: url(/OurPeoplePhotos/rushi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-team .people2 .front {
+    background-image: url(/OurPeoplePhotos/rajat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-team .people3 .front {
+    background-image: url(/OurPeoplePhotos/nikhil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-team .people4 .front {
+    background-image: url(/OurPeoplePhotos/samraat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-team .people5 .front {
+    background-image: url(/OurPeoplePhotos/rishika.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-team .people6 .front {
+    background-image: url(/OurPeoplePhotos/mohit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-team .people7 .front {
+    background-image: url(/OurPeoplePhotos/vaibhav.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right{
+  display: grid;
+  grid-auto-flow:row-center auto;
+  grid-gap: 0vw;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr ;
+  margin-left: 3vw;
+}
+
+
+
+

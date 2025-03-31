@@ -1,0 +1,209 @@
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .dt{
+        top: -10em;
+        margin-bottom: 15em;
+    }
+    
+    .dt .head4{
+        margin-top: 5vh;
+    }
+    
+    .dt .head4 h1{
+        top: 19vh;
+        font-size: 3em;
+    }
+    
+    .dt .potholes{
+        flex-direction: row;
+        top: 30em;
+        margin: 1em 2em 1em 2em;
+    }
+    
+    .dt video{
+        width: 50vw;
+        margin-left: 4em;
+    }
+    
+    .dt .potholes .info5 h2{
+        font-size: 2em;
+    }
+    
+    .dt .potholes .info5 p{
+        margin-top: 2vh;
+        width: 39.5vw;
+        font-size: 1.3em;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .dt{
+        top: -10em;
+        margin-bottom: 10em;
+    }
+    
+    .dt .head4{
+        margin-top: 5vh;
+    }
+    
+    .dt .head4 h1{
+        top: 19vh;
+        font-size: 3em;
+    }
+    
+    .dt .potholes{
+        flex-direction: row;
+        top: 27em;
+        margin: 1em 3em 1em 3em;
+    }
+    
+    .dt video{
+        width: 45vw;
+        margin-left: 4em;
+    }
+    
+    .dt .potholes .info5 h2{
+        font-size: 1.3em;
+    }
+    
+    .dt .potholes .info5 p{
+        margin-top: 2vh;
+        width: 39.5vw;
+        font-size: 2vw;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .dt{
+        top: -10em;
+        margin-bottom: 15em;
+    }
+    
+    .dt .head4{
+        margin-top: 5vh;
+    }
+    
+    .dt .head4 h1{
+        top: 19vh;
+        font-size: 3em;
+    }
+    
+    .dt .potholes{
+        flex-direction: column-reverse;
+        top: 30em;
+        margin: 1em 3em 1em 3em;
+    }
+    
+    .dt video{
+        width: 50vw;
+        margin-left: 0em;
+        margin-bottom: 3em;
+    }
+    
+    .dt .potholes .info5 h2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .dt .potholes .info5 p{
+        margin-top: 2vh;
+        width: 63.5vw;
+        font-size: 2.2vw;
+    }
+ }
+
+@media all and (min-width:480px) and (max-width:584px) {
+    .dt{
+        margin-bottom: 9em;
+    }
+    
+    .dt .potholes{
+        top: 28em;
+    }
+
+    .dt video{
+        width: 65vw;
+        margin-left: 0em;
+        margin-bottom: 3em;
+    }
+}
+
+@media all and (min-width: 284px) and (max-width: 480px) { 
+    
+    .dt{
+        top: -10em;
+        margin-bottom: 9em;
+    }
+    
+    .dt .head4{
+        margin-top: 5vh;
+    }
+    
+    .dt .head4 h1{
+        top: 19vh;
+        font-size: 2.5em;
+    }
+    
+    .dt .potholes{
+        flex-direction: column-reverse;
+        top: 28em;
+        margin: 1em 3em 1em 3em;
+    }
+    
+    .dt video{
+        width: 65vw;
+        margin-left: 0em;
+        margin-bottom: 3em;
+    }
+    
+    .dt .potholes .info5 h2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .dt .potholes .info5 p{
+        margin-top: 2vh;
+        width: 63.5vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media all and (width<=284px) {
+    .dt{
+        top: -10em;
+        margin-bottom: 9em;
+    }
+    
+    .dt .head4{
+        margin-top: 5vh;
+    }
+    
+    .dt .head4 h1{
+        top: 19vh;
+        font-size: 2em;
+    }
+    
+    .dt .potholes{
+        flex-direction: column-reverse;
+        top: 28em;
+        margin: 1em 3em 1em 3em;
+    }
+    
+    .dt video{
+        width: 65vw;
+        margin-left: 0em;
+        margin-bottom: 3em;
+    }
+    
+    .dt .potholes .info5 h2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
+    .dt .potholes .info5 p{
+        margin-top: 2vh;
+        width: 63.5vw;
+        font-size: 2.5vw;
+    }
+}

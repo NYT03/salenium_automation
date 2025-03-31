@@ -1,0 +1,386 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    
+    .features{
+        top: -9em;
+        margin-bottom: 25em;
+    }
+    
+    .features .fcont{
+        top: 35em;
+    }
+
+    .features h1{
+        top: 19vh;
+        font-size: 3em;
+    }
+
+    .features .deepl .info2 p{
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+
+    .features .data-anly{
+        margin-top: 10em;
+    }
+    .features .data-anly .info3 p{
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+
+    .features .community .info4 p{
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+
+    .features .deepl .info2 h2,
+    .features .data-anly .info3 h2,
+    .features .community .info4 h2{
+        font-size: 1.7em;
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    .features{
+        top: -9em;
+        margin-bottom: 35em;
+    }
+    
+    .features .fcont{
+        top: 38em;
+        margin-left: 0em;
+    }
+
+    .features h1{
+        top: 19vh;
+        font-size: 3em;
+    }
+
+    .features .data-anly{
+        margin-top: 25vw;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .features .deepl .info2 p{
+        font-size: 1.7vw;
+        font-weight: 600;
+    }
+
+    .features .data-anly .info3 p{
+        font-size: 1.7vw;
+        font-weight: 600;
+    }
+
+    .features .community .info4 p{
+        font-size: 1.7vw;
+        font-weight: 600;
+    }
+
+    .features .deepl .gif1 img{
+        max-width: 9em;
+    }
+
+    .features .data-anly .gif2 img{
+        max-width: 9em;
+    }
+
+    .features .community .gif3 img{
+        max-width: 9em;
+    }
+
+    .features .deepl .info2 h2,
+    .features .data-anly .info3 h2,
+    .features .community .info4 h2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .features{
+        top: -9em;
+        margin-bottom: 55em;
+    }
+    
+    .features .fcont{
+        top: 47em;
+        left: -2em;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .features h1{
+        top: 19vh;
+        font-size: 3em;
+    }
+
+    .features .data-anly{
+        flex-direction: row-reverse;
+        margin-bottom: 4em;
+        margin-top: 4em;
+        margin-right: 0em;
+        justify-items: right;
+        margin-left: 4em;
+    }
+
+    .features .deepl{
+        flex-direction: row;
+        justify-items: left;
+        margin-left: 3em;
+    }
+
+    .features .community{
+        flex-direction: row;
+        justify-items: left;
+        margin-left: 1.5em;
+    }
+
+    .features .deepl .info2{
+        margin-bottom: 0em;
+        margin-right: 5em;
+    }
+
+    .features .data-anly .info3{
+        margin-bottom: 0em;
+        margin-left: 5em;
+    }
+
+    .features .data-anly .gif2{
+        margin-bottom: 0em;
+    }
+
+    .features .community .info4{
+        margin-bottom: 0em;
+        margin-right: 3em;
+    }
+
+    .features .deepl .info2 p{
+        font-size: 2.2vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .data-anly .info3 p{
+        font-size: 2.2vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .community .info4 p{
+        font-size: 2.2vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .deepl .gif1 img{
+        max-width: 25vw;
+    }
+
+    .features .data-anly .gif2 img{
+        max-width: 25vw;
+    }
+
+    .features .community .gif3 img{
+        max-width: 25vw;
+    }
+
+    .features .deepl .info2 h2,
+    .features .data-anly .info3 h2,
+    .features .community .info4 h2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+ }
+
+@media all and (min-width: 284px) and (max-width: 480px) { 
+    .features{
+        top: -11em;
+        margin-bottom: 40em;
+    }
+
+    .features .fcont{
+        top: 43em;
+        left: -2em;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .features h1{
+        top: 19vh;
+        font-size: 3em;
+    }
+
+    .features .data-anly{
+        flex-direction: row-reverse;
+        margin-bottom: 4em;
+        margin-top: 4em;
+        margin-right: 0em;
+        justify-items: right;
+        margin-left: 4em;
+    }
+
+    .features .deepl{
+        flex-direction: row;
+        justify-items: left;
+        margin-left: 4em;
+    }
+
+    .features .community{
+        flex-direction: row;
+        justify-items: left;
+        margin-left: 4em;
+    }
+
+    .features .deepl .info2{
+        margin-bottom: 0em;
+        margin-right: 2em;
+    }
+
+    .features .data-anly .info3{
+        margin-bottom: 0em;
+        margin-left: 2em;
+    }
+
+    .features .data-anly .gif2{
+        margin-bottom: 0em;
+    }
+
+    .features .community .info4{
+        margin-bottom: 0em;
+        margin-right: 2em;
+    }
+
+    .features .deepl .info2 p{
+        font-size: 2.5vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .data-anly .info3 p{
+        font-size: 2.5vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .community .info4 p{
+        font-size: 2.5vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .deepl .gif1 img{
+        max-width: 20vw;
+    }
+
+    .features .data-anly .gif2 img{
+        max-width: 20vw;
+    }
+
+    .features .community .gif3 img{
+        max-width: 20vw;
+    }
+
+    .features .deepl .info2 h2,
+    .features .data-anly .info3 h2,
+    .features .community .info4 h2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+}
+
+@media all and (width<=284px) {
+    .features{
+        top: -11em;
+        margin-bottom: 40em;
+    }
+
+    .features .fcont{
+        top: 43em;
+        left: -2em;
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .features h1{
+        top: 19vh;
+        font-size: 2em;
+    }
+
+    .features .data-anly{
+        flex-direction: row-reverse;
+        margin-bottom: 4em;
+        margin-top: 4em;
+        margin-right: 0em;
+        justify-items: right;
+        margin-left: 4em;
+    }
+
+    .features .deepl{
+        flex-direction: row;
+        justify-items: left;
+        margin-left: 4em;
+    }
+
+    .features .community{
+        flex-direction: row;
+        justify-items: left;
+        margin-left: 4em;
+    }
+
+    .features .deepl .info2{
+        margin-bottom: 0em;
+        margin-right: 2em;
+    }
+
+    .features .data-anly .info3{
+        margin-bottom: 0em;
+        margin-left: 2em;
+    }
+
+    .features .data-anly .gif2{
+        margin-bottom: 0em;
+    }
+
+    .features .community .info4{
+        margin-bottom: 0em;
+        margin-right: 2em;
+    }
+
+    .features .deepl .info2 p{
+        font-size: 2.9vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .data-anly .info3 p{
+        font-size: 2.9vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .community .info4 p{
+        font-size: 2.9vw;
+        font-weight: 600;
+        width: 50vw;
+    }
+
+    .features .deepl .gif1 img{
+        max-width: 20vw;
+    }
+
+    .features .data-anly .gif2 img{
+        max-width: 20vw;
+    }
+
+    .features .community .gif3 img{
+        max-width: 20vw;
+    }
+
+    .features .deepl .info2 h2,
+    .features .data-anly .info3 h2,
+    .features .community .info4 h2{
+        font-size: 1.3em;
+        text-align: center;
+    }
+}

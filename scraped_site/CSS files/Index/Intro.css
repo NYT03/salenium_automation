@@ -1,0 +1,198 @@
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    text-align: left;
+    height: 80vh;
+    position: relative;  
+    break-after: always;
+    page-break-after: always;
+}
+
+.content{
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: -70vh;
+    padding: 0 10vw; 
+}
+
+.content h1{
+    font-size: 5vw
+}
+
+.content .t1{
+    font-size: 2vw;
+    margin-top: 2vh;
+    z-index: 0;
+}
+
+
+.content .t2{
+    font-size: 2vw;
+    margin-top: 0.5vh;
+    z-index: 0;
+}
+
+
+.content .s1{
+    color: rgb(0, 64, 255);
+}
+
+.content .s1:hover{
+    color: rgb(255, 187, 0);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.content .s2{
+    color: rgb(0, 64, 255);
+}
+
+.content .s2:hover{
+    color: red;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.content .btn1{
+    margin-top: 5vh;
+    font-size: 2vw;
+}
+
+.content img{
+    max-width: 2vw;
+    margin-left: 1vw;
+}
+/* Content of Intro starts here */
+
+/* Images of Intro starts here */
+
+.images {
+    position: relative;
+    max-width: 80vw;
+    margin: 70vh auto 0;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images img {
+    position: absolute;
+    max-width: 5vw;
+    transition: all 0.2s ease;
+}
+
+.giffy{
+    display: none;
+}
+
+
+.images .im1 {
+    width: 6vw;
+    top: calc(-20vh - 50%);
+    left: calc(53vh - 50%);
+}
+
+.images .im1:hover {
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.images .im2 {
+    max-width: 12vw;
+    top: -18vh;
+    left: 65vh;
+    transform: translate(-50%, -50%);
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.images .im2:hover {
+    box-shadow: 2px 2px 20px rgb(255, 0, 0);
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+.images .im3 {
+    max-width: 6vw;
+    top: calc(-42vh - 50%);
+    left: calc(55vh - 50%);
+}
+
+.images .im3:hover {
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.images .im4 {
+    max-width: 6vw;
+    top: calc(-50vh - 50%);
+    left: calc(80vh - 50%);
+}
+
+.images .im4:hover {
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.images .im5 {
+    width: 6vw;
+    top: calc(-40vh - 50%);
+    left: calc(105vh - 50%);
+}
+
+.images .im5:hover {
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.images .im6 {
+    width: 6vw;
+    top: calc(-20vh - 50%);
+    left: calc(110vh - 50%);
+}
+
+.images .im6:hover {
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.images .im7 {
+    width: 6vw;
+    top: calc(-1vh - 50%);
+    left: calc(100vh - 50%);
+}
+
+.images .im7:hover {
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.images .im8 {
+    width: 6vw;
+    top: calc(5vh - 50%);
+    left: calc(80vh - 50%);
+}
+
+.images .im8:hover {
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.images .im9 {
+    width: 5vw;
+    top: calc(-5vh - 50%);
+    left: calc(60vh - 50%);
+}
+
+.images .im9:hover {
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+/* Images of Intro ends here */
+
+/* Line Break */
+

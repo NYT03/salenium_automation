@@ -1,0 +1,7 @@
+flask
+flask-cors
+reportlab
+requests
+streamlit
+python-dotenv
+playwright
