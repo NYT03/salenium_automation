@@ -5,3 +5,6 @@ requests
 streamlit
 python-dotenv
 playwright
+selenium
+selenium-wire
+webdriver-manager
